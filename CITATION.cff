@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Hamiltonian Eigendecomposition for Pan-Cancer Multiomics"
+abstract: >
+  Hamiltonian eigendecomposition framework for multimodal omics survival
+  analysis. Treats the multi-omic covariance matrix as a Hamiltonian,
+  extracts survival-discriminating collective modes, and computes the
+  universal malignancy coordinate eta and critical temperature T*.
+authors:
+  - family-names: Mayfield
+    given-names: John D.
+    affiliation: >
+      Department of Radiology, Massachusetts General Hospital;
+      Harvard Medical School;
+      Athinoula A. Martinos Center for Biomedical Imaging
+    orcid: "https://orcid.org/[YOUR-ORCID]"
+repository-code: "https://github.com/[USERNAME]/hamiltonian-multiomics"
+license: MIT
+version: "1.0.0"
+date-released: "2026"
+preferred-citation:
+  type: article
+  title: >
+    Phase Transitions in Pan-Cancer Multiomics Covariance Landscapes
+    Define a Universal Malignancy Coordinate
+  authors:
+    - family-names: Mayfield
+      given-names: John D.
+  journal: Bioinformatics
+  year: 2026
+  doi: "10.1093/bioinformatics/btXXXX"
