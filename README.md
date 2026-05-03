@@ -29,3 +29,17 @@ https://www.cbioportal.org
 
 Survival data and expression profiles can be retrieved programmatically
 via the cBioPortal REST API (https://www.cbioportal.org/api).
+
+## CHIMERA prostate cancer multimodal data
+
+The `Chimera_050126.ipynb` notebook implements the Hamiltonian spectral
+fusion pipeline for the MICCAI 2026 CHIMERA-agent Grand Challenge (Task 1:
+biochemical recurrence prediction from multiparametric MRI + whole-slide pathology).
+
+**Data access requires challenge registration:**
+https://chimera-challenge.grand-challenge.org
+
+Once registered, data can be downloaded directly within the notebook via
+the pre-configured AWS S3 sync cell:
+
+```python
